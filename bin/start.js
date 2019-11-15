@@ -5,7 +5,7 @@ const { from } = require('rxjs')
 const { mergeMap } = require('rxjs/operators')
 const { createConnection } = require('typeorm')
 const { bootstrap, entities } = require('../packages/core')
-
+import {} from 'ioredis'
 const config = YAML.parse(
     fs.readFileSync(
         path.join(__dirname, `../config/${process.env.NODE_ENV}.yml`),
