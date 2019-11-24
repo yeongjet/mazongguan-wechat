@@ -12,7 +12,7 @@
     "@marblejs/core": "^2.3.1",
     "@marblejs/middleware-body": "^2.3.1",
     "@marblejs/middleware-logger": "^2.3.1",
-    "@mazongguan-common/client": "0.0.33",
+    "@mazongguan-common/client": "http://www.pastme.top:4873/@mazongguan-common%2fclient/-/client-0.0.33.tgz",
     "@yeongjet/middleware-joi": "0.0.1",
     "chalk": "^2.4.2",
     "ioredis": "^4.14.1",

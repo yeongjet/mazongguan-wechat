@@ -2,6 +2,7 @@
     "compilerOptions": {
         "target": "es2017",
         "module": "commonjs",
+        "esModuleInterop": true,
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "declaration": true,
@@ -9,7 +10,13 @@
         "noImplicitAny": false,
         "rootDir": "./src",
         "outDir": "./lib",
-        "lib": ["es2017"]
+        "lib": [
+            "es2017", "es2020"
+        ]
     },
-    "exclude": ["**/node_modules", "**/lib", "**/bin"]
+    "exclude": [
+        "**/node_modules",
+        "**/lib",
+        "**/test"
+    ]
 }
